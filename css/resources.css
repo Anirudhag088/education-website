@@ -1,0 +1,52 @@
+.counselling h1{
+    margin-top: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+.container_resourses{
+    color: #1f2641;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+}
+.resource_item{
+    background: #5CDB94;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    margin-bottom: 1rem;
+    
+}
+.resource_item:hover{
+    border-color: var(--color-primary-variant);
+   
+}
+.resource_item-img{
+    align-items: center;
+     border-radius: 0.8rem;
+    overflow: hidden;
+   
+}
+.resource_item h5{
+    margin: 1.2rem 0 1rem;
+    font-weight: 700;
+}
+
+
+/*--------------------------------MEDIA QUERIES (TABLETS)-------------------------------*/
+@media screen and (max-width: 1024px) {
+    .container_resourses{
+     grid-template-columns: 1fr 1fr;
+     gap: 1.2rem;
+    }
+ }
+ 
+ /*--------------------------------MEDIA QUERIES (Mobile)-------------------------------*/
+ @media screen and (max-width: 600px) {
+    .container_resourses{
+     grid-template-columns: 1fr;
+     gap: 1rem;
+    }
+    
+ }

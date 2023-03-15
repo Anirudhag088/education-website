@@ -1,0 +1,55 @@
+
+body{
+    background-color: white;
+    color: #333333
+}
+P{
+    font-size: 1.2rem;
+}
+section {
+    padding: 1.5rem 4rem;
+  }
+  .jee_page_container{
+    padding: 2rem 4rem;
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0.05,0,0,0.05);
+    text-align: center;
+  }
+.jee_page_header{
+    margin-top: 4rem;
+    color: white;
+    background: #05396B;
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.jee_header_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+.jee_header_btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+.download_syallbaus{
+    color: var(--color-primary);
+    }
+
+    /*--------------------------------FAQs------------------------------*/
+    .jee_page_faq{
+        background: #05396B;
+        padding: 6rem 0;
+    }
+

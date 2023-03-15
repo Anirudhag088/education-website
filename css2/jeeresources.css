@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    color: #333333
+}
+P{
+    font-size: 1.2rem;
+}
+section {
+    padding: 1.5rem 4rem;
+  }
+  .jee_container_header{
+    margin-top: 4rem;
+  }
+.jee_math_resources{
+  padding: 2rem;
+  color: white;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+  border: 2px solid transparent;
+  background-color: #5CDB94;
+  box-shadow: 1rem 1rem 1rem 1rem rgba(0.05,0,0,0.05);
+   border-radius: 20px;
+}
+.resouce_box_img{
+    width: 3rem;
+}
+
+.jee_resources-btn{
+    background: #05396B;
+    color: white;
+}
+.jee_resources_container{
+    text-align: center;
+}
+
+/*================================MEDIA QUERIES (tablets) ==================*/
+
+@media screen and (max-width: 1024px){
+    section {
+        padding: 1.5rem 1rem;
+      }
+}
+
+
+/*================================MEDIA QUERIES (mobile) ==================*/
+@media screen  and (max-width: 600px) {
+    section {
+        padding: 1.5rem 0rem;
+      }
+    .jee_math_resources{
+        grid-template-columns: 1fr;
+        gap: 0.5rem; 
+    }
+    .resources_feature{
+        display: flex;
+        gap: 0.8rem;
+
+    }
+    
+}

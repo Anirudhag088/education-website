@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+    color: #333333
+}
+.jeemain_heading {
+    margin-top: 4rem;
+    padding: 2rem 4rem;
+  }
+.heading_jeemath{
+   text-align: center;
+   margin-top: 2rem;
+  }
+.modules{
+   padding: 0.1rem 4rem;
+   margin-bottom: 4rem;
+  }
+  
+  .chapter_line{
+    margin-left: 3rem;
+  }
+  .img_book{
+    width: 2rem;
+  }
+  li{
+    display: flex;
+    gap: 1rem;
+    color: black;
+    font-size: 1.2rem;
+  }
+  .download_syallbaus{
+    color: #05396B;
+    font-weight: 500;
+    }
+
+
+    /*================================MEDIA QUERIES (tablets) ==================*/
+
+@media screen and (max-width: 1024px) {
+  .img_book{
+    width: 2rem;
+    height: 2rem;
+  }
+}
+/*================================MEDIA QUERIES (mobile) ==================*/
+@media screen  and (max-width: 600px) {
+  .jeemain_heading {
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+  }
+  .modules{
+    padding: 0.1rem 1rem;
+    margin-bottom: 4rem;
+   }
+}

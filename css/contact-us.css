@@ -1,0 +1,82 @@
+/*--------------------------Conatct-header--------------------------*/
+.contact_container{
+    background: #00bf8e;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+.contact h1{
+    text-align: center;
+}
+
+/*--------------------------aside--------------------------*/
+.contact-aside{
+    border-radius: 1rem;
+    position: relative;
+    bottom: 8rem;
+}
+.aside_img{
+    width: 12rem;
+    margin-bottom: 2rem;
+}
+.contact-aside h2{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.contact-aside p{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.contact_details li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/*--------------------------form--------------------------*/
+.contact_form{
+   padding-right: 2rem;
+}
+.contact-btn{
+    text-align: center;
+}
+
+/*================================MEDIA QUERIES (tablets) ==================*/
+
+@media screen and (max-width: 1024px){
+    .contact_container{
+        gap: 1.5rem;
+        margin-top: 3rem;
+        height: auto;
+        padding: 1.5rem;
+    }
+    .contact-aside{
+        width: auto;
+        padding: 1.5rem;
+        bottom: 0;
+    }
+    .contact_form{
+        align-self: center;
+        margin-right: 1.5rem;
+    }
+
+}
+
+/*================================MEDIA QUERIES (mobile) ==================*/
+@media screen  and (max-width: 600px){
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+        padding: 0;
+    }
+    .form-group{
+        margin-left: 1rem;
+    }
+    
+}
